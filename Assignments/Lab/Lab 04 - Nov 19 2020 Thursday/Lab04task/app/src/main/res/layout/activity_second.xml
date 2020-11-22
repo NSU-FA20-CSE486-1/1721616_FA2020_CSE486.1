@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+    <Button
+        android:id="@+id/button_cheese"
+        style="@android:style/Widget.Material.Button"
+        android:layout_width="130dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="25dp"
+        android:onClick="selectItem"
+        android:text="@string/cheese"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/button_rice"
+        style="@android:style/Widget.Material.Button"
+        android:layout_width="130dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:onClick="selectItem"
+        android:text="@string/rice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_cheese" />
+
+    <Button
+        android:id="@+id/button_apple"
+        style="@android:style/Widget.Material.Button"
+        android:layout_width="130dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:onClick="selectItem"
+        android:text="@string/apple"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_rice"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button_eggs"
+        style="@android:style/Widget.Material.Button"
+        android:layout_width="130dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:onClick="selectItem"
+        android:text="@string/eggs"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_apple" />
+
+    <Button
+        android:id="@+id/button_Chocolate"
+        style="@android:style/Widget.Material.Button"
+        android:layout_width="130dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:onClick="selectItem"
+        android:text="@string/chocolate"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_eggs" />
+    <Button
+        android:id="@+id/button_milk"
+        style="@android:style/Widget.Material.Button"
+        android:layout_width="130dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:onClick="selectItem"
+        android:text="@string/milk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_sugar" />
+
+
+
+
+    <Button
+        android:id="@+id/button_wheat"
+        style="@android:style/Widget.Material.Button"
+        android:layout_width="130dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:onClick="selectItem"
+        android:text="@string/wheat_flour"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_Chocolate"
+        app:layout_constraintVertical_bias="0.02" />
+
+
+
+    <Button
+        android:id="@+id/button_sugar"
+        style="@android:style/Widget.Material.Button"
+        android:layout_width="130dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:onClick="selectItem"
+        android:text="@string/sugar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_wheat" />
+
+    <Button
+        android:id="@+id/button_salt"
+        style="@android:style/Widget.Material.Button"
+        android:layout_width="130dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:onClick="selectItem"
+        android:text="@string/salt"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_milk" />
+
+    <Button
+        android:id="@+id/button_oil"
+        style="@android:style/Widget.Material.Button"
+        android:layout_width="130dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="80dp"
+        android:onClick="selectItem"
+
+        android:text="@string/oil"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_salt"
+        app:layout_constraintVertical_bias="0.096" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
