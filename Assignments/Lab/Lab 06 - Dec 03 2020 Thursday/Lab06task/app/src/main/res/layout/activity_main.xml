@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/operand_one_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="@string/type_operand_one_hint"
+        android:inputType="numberDecimal|numberSigned" />
+
+    <EditText
+        android:id="@+id/operand_two_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="@string/type_operand_two_hint"
+        android:inputType="numberDecimal|numberSigned" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="447dp">
+
+        <Button
+            android:id="@+id/operation_add_btn"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="75dp"
+            android:onClick="onAdd"
+            android:text="@string/add_operation_text"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/operation_sub_btn"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="75dp"
+            android:layout_marginEnd="55dp"
+            android:onClick="onSub"
+            android:text="@string/sub_operation_text"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/operation_div_btn"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/operation_add_btn"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="15dp"
+            android:onClick="onDiv"
+            android:text="@string/div_operation_text"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/operation_mul_btn"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/operation_sub_btn"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="55dp"
+            android:onClick="onMul"
+            android:text="@string/mul_operation_text"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btn_pow"
+
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="203dp"
+            android:onClick="onPow"
+            android:text="@string/power"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/result_view"
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="71dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginEnd="51dp"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+</LinearLayout>
