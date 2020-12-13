@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="416dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-3dp"
+        android:layout_marginEnd="0dp">
+
+        <RadioButton
+            android:id="@+id/time_button"
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="256dp"
+            android:layout_marginEnd="156dp"
+            android:onClick="showTimeClock"
+            android:text="@string/pick_your_time" />
+
+        <RadioButton
+            android:id="@+id/Date_button"
+            android:layout_width="149dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/time_button"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="152dp"
+            android:layout_marginBottom="390dp"
+            android:onClick="showDateCalender"
+            android:text="@string/pick_your_date" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/print_button"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="138dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="51dp"
+        android:onClick="showAll"
+        android:text="@string/show_all"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="266dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="200dp"
+        android:text="TextView" />
+
+
+</RelativeLayout>
+

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lab07task: Time and Date selector</string>
+    <string name="time">Time</string>
+    <string name="date">Date</string>
+    <string name="show_all">Show All</string>
+    <string name="time_picker">timePicker</string>
+    <string name="date_picker">datePicker</string>
+    <string name="pick_your_time">Pick your time</string>
+    <string name="pick_your_date">Pick your date</string>
+
+</resources>
