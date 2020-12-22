@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Mid_sms_app</string>
+    <string name="input_sms">Input SMS</string>
+    <string name="send_to_b">Send encrypted sms</string>
+</resources>
