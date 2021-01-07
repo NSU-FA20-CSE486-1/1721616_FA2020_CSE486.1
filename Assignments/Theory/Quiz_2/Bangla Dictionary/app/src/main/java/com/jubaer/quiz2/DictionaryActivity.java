@@ -1,21 +1,19 @@
 package com.jubaer.quiz2;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
-import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class DictionaryActivity extends AppCompatActivity {
+
+    RecyclerView ditionary;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-    }
+        setContentView(R.layout.activity_dictionary);
 
-    public void addWord(View view) {
-    }
-
-    public void dictionary(View view) {
     }
 }
