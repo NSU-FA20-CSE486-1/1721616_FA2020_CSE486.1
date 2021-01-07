@@ -5,7 +5,7 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.adib.test"
+        applicationId "com.jubaer.quiz2"
         minSdkVersion 18
         targetSdkVersion 30
         versionCode 1
