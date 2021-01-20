@@ -46,14 +46,17 @@
                      android:layout_marginTop="15dp"
                      android:layout_marginBottom="0dp"
                      android:drawableLeft="@drawable/name_icon"
+                     android:drawablePadding="10dp"
                      android:hint="     Name : "
                      android:padding="10dp"
                      android:paddingEnd="10dp"
                      tools:layout_editor_absoluteX="0dp"
                      tools:layout_editor_absoluteY="316dp" />
 
+
+
                  <EditText
-                     android:id="@+id/eEmailAddress2"
+                     android:id="@+id/eEmailAddress"
                      android:layout_width="match_parent"
                      android:layout_height="wrap_content"
                      android:layout_below="@+id/eName"
@@ -64,6 +67,7 @@
                      android:layout_marginEnd="2dp"
                      android:layout_marginBottom="0dp"
                      android:drawableStart="@drawable/email_icon"
+                     android:drawablePadding="10dp"
                      android:ems="10"
                      android:hint="      Email:"
                      android:inputType="textEmailAddress"
@@ -72,25 +76,41 @@
                      tools:layout_editor_absoluteX="0dp"
                      tools:layout_editor_absoluteY="316dp" />
 
-                 <EditText
-                     android:id="@+id/ePhone"
+                 <LinearLayout
                      android:layout_width="match_parent"
-                     android:layout_height="wrap_content"
-                     android:layout_below="@+id/eEmailAddress"
-                     android:layout_alignParentStart="true"
-                     android:layout_alignParentEnd="true"
-                     android:layout_marginStart="5dp"
-                     android:layout_marginTop="10dp"
-                     android:layout_marginEnd="0dp"
-                     android:layout_marginBottom="0dp"
-                     android:drawableLeft="@drawable/phone_icon"
-                     android:ems="10"
-                     android:hint="      Phone:"
-                     android:inputType="phone"
-                     android:padding="10dp"
-                     android:paddingEnd="10dp"
-                     tools:layout_editor_absoluteX="0dp"
-                     tools:layout_editor_absoluteY="316dp" />
+                     android:layout_height="match_parent"
+
+                     android:orientation="horizontal"
+                     tools:ignore="MissingPrefix">
+                     <com.hbb20.CountryCodePicker
+                         android:id="@+id/CountryCode"
+                         app:ccp_countryAutoDetectionPref="LOCALE_NETWORK"
+                         android:layout_width="135dp"
+                         android:layout_height="match_parent">
+
+                     </com.hbb20.CountryCodePicker>
+                     <EditText
+
+                         android:id="@+id/ePhone"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:layout_below="@+id/eEmailAddress"
+                         android:layout_alignParentStart="true"
+                         android:layout_alignParentEnd="true"
+                         android:layout_marginStart="5dp"
+                         android:layout_marginTop="10dp"
+                         android:layout_marginEnd="0dp"
+                         android:layout_marginBottom="0dp"
+
+                         android:drawablePadding="10dp"
+                         android:ems="10"
+                         android:hint="  Phone:"
+                         android:inputType="phone"
+                         android:padding="10dp"
+                         android:paddingEnd="10dp"
+                         tools:layout_editor_absoluteX="0dp"
+                         tools:layout_editor_absoluteY="316dp" />
+                 </LinearLayout>
 
                  <EditText
                      android:id="@+id/ePassword2"
@@ -104,6 +124,7 @@
                      android:layout_marginEnd="0dp"
                      android:layout_marginBottom="0dp"
                      android:drawableLeft="@drawable/password_icon"
+                     android:drawablePadding="10dp"
                      android:ems="10"
                      android:hint="     Password "
                      android:inputType="textPassword"
@@ -125,6 +146,7 @@
                      android:layout_marginEnd="-1dp"
                      android:layout_marginBottom="0dp"
                      android:drawableLeft="@drawable/password_icon"
+                     android:drawablePadding="10dp"
                      android:ems="10"
                      android:hint="     Confirm Password "
                      android:inputType="textPassword"
@@ -161,15 +183,17 @@
                          tools:ignore="OnClick" />
 
                      <Button
-                         android:id="@+id/padd"
+                         android:id="@+id/signup"
                          android:layout_width="120dp"
                          android:layout_height="wrap_content"
                          android:layout_gravity="bottom|left"
                          android:layout_marginLeft="25dp"
+                         android:onClick="register"
                          android:background="@drawable/button_login"
                          android:paddingEnd="10dp"
                          android:paddingRight="10dp"
-                         android:text="Sign Up" />
+                         android:text="Sign Up"
+                         tools:ignore="OnClick" />
 
                  </LinearLayout>
 
