@@ -57,10 +57,51 @@ public class SignUpActivity extends AppCompatActivity {
 
     }
     public void register(View view) {
+        String emailpattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
         String email = eEmailAddress.getText().toString().trim();
         if(TextUtils.isEmpty(email)) {
             eEmailAddress.setError("Enter email");
+            return;
         }
+
+        if(!email.matches(emailpattern)) {
+            eEmailAddress.setError("invalid email");
+            return;
+        }
+
+
+        String password =  ePassword.getText().toString().trim();
+        if(TextUtils.isEmpty(password)) {
+            ePassword.setError("Enter password");
+            return;
+        }
+        if(password.length()<8){
+            ePassword.setError("Password is Weak");
+        }
+
+
+        String cpassword =  eConfirmPassword.getText().toString().trim();
+        if(TextUtils.isEmpty(cpassword)) {
+            eConfirmPassword.setError("Enter password");
+            return;
+        }
+        if(cpassword!=password){
+            eConfirmPassword.setError("Password is not matched try again");
+            return;
+        }
+
+        String phone =  ePhone.getText().toString().trim();
+        if(TextUtils.isEmpty(phone)) {
+            ePhone.setError("Enter phone number");
+            return;
+        }
+        if(phone.length()<10){
+            ePhone.setError("please enter proper phone number");
+        }
+        if(phone.length()>10){
+            ePhone.setError("please enter proper phone number");
+        }
+
 
     }
 
