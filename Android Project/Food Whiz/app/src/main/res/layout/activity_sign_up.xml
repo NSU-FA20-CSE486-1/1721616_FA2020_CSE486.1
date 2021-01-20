@@ -21,142 +21,160 @@
             android:orientation="vertical">
 
 
-            <ImageView
-                android:id="@+id/imageView2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/signupimg" />
+                 <androidx.constraintlayout.widget.ConstraintLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent">
 
-            <EditText
-                android:id="@+id/eName"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/imageView4"
-                android:layout_alignParentStart="true"
-                android:layout_marginStart="2dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginBottom="0dp"
-                android:drawableLeft="@drawable/name_icon"
-                android:hint="     Name : "
-                android:padding="10dp"
-                tools:layout_editor_absoluteX="0dp"
-                tools:layout_editor_absoluteY="316dp" />
+                     <ImageView
+                         android:id="@+id/imageView2"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         app:layout_constraintBottom_toBottomOf="parent"
+                         app:layout_constraintEnd_toEndOf="parent"
+                         app:layout_constraintStart_toStartOf="parent"
+                         app:layout_constraintTop_toTopOf="parent"
+                         app:srcCompat="@drawable/signupimg" />
+                 </androidx.constraintlayout.widget.ConstraintLayout>
 
-            <EditText
-                android:id="@+id/eEmailAddress2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/eName"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentEnd="true"
-                android:layout_marginStart="-4dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="2dp"
-                android:layout_marginBottom="0dp"
-                android:drawableStart="@drawable/email_icon"
-                android:ems="10"
-                android:hint="      Email:"
-                android:inputType="textEmailAddress"
-                android:padding="10dp"
-                tools:layout_editor_absoluteX="0dp"
-                tools:layout_editor_absoluteY="316dp" />
+                 <EditText
+                     android:id="@+id/eName"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@+id/imageView4"
+                     android:layout_alignParentStart="true"
+                     android:layout_marginStart="5dp"
+                     android:layout_marginTop="15dp"
+                     android:layout_marginBottom="0dp"
+                     android:drawableLeft="@drawable/name_icon"
+                     android:hint="     Name : "
+                     android:padding="10dp"
+                     android:paddingEnd="10dp"
+                     tools:layout_editor_absoluteX="0dp"
+                     tools:layout_editor_absoluteY="316dp" />
 
-            <EditText
-                android:id="@+id/ePhone"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/eEmailAddress"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentEnd="true"
-                android:layout_marginStart="-2dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="0dp"
-                android:layout_marginBottom="0dp"
-                android:drawableLeft="@drawable/phone_icon"
-                android:ems="10"
-                android:hint="      Phone:"
-                android:inputType="phone"
-                android:padding="10dp"
-                tools:layout_editor_absoluteX="0dp"
-                tools:layout_editor_absoluteY="316dp" />
+                 <EditText
+                     android:id="@+id/eEmailAddress2"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@+id/eName"
+                     android:layout_alignParentStart="true"
+                     android:layout_alignParentEnd="true"
+                     android:layout_marginStart="5dp"
+                     android:layout_marginTop="10dp"
+                     android:layout_marginEnd="2dp"
+                     android:layout_marginBottom="0dp"
+                     android:drawableStart="@drawable/email_icon"
+                     android:ems="10"
+                     android:hint="      Email:"
+                     android:inputType="textEmailAddress"
+                     android:padding="10dp"
+                     android:paddingEnd="10dp"
+                     tools:layout_editor_absoluteX="0dp"
+                     tools:layout_editor_absoluteY="316dp" />
 
-            <EditText
-                android:id="@+id/ePassword2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/ePhone"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentEnd="true"
-                android:layout_marginStart="1dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="0dp"
-                android:layout_marginBottom="0dp"
-                android:drawableLeft="@drawable/password_icon"
-                android:ems="10"
-                android:hint="     Password "
-                android:inputType="textPassword"
-                android:padding="10dp"
-                tools:layout_editor_absoluteX="0dp"
-                tools:layout_editor_absoluteY="316dp" />
+                 <EditText
+                     android:id="@+id/ePhone"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@+id/eEmailAddress"
+                     android:layout_alignParentStart="true"
+                     android:layout_alignParentEnd="true"
+                     android:layout_marginStart="5dp"
+                     android:layout_marginTop="10dp"
+                     android:layout_marginEnd="0dp"
+                     android:layout_marginBottom="0dp"
+                     android:drawableLeft="@drawable/phone_icon"
+                     android:ems="10"
+                     android:hint="      Phone:"
+                     android:inputType="phone"
+                     android:padding="10dp"
+                     android:paddingEnd="10dp"
+                     tools:layout_editor_absoluteX="0dp"
+                     tools:layout_editor_absoluteY="316dp" />
 
-            <EditText
-                android:id="@+id/eConfirmPassword"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/ePassword"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentEnd="true"
-                android:layout_centerHorizontal="true"
-                android:layout_marginStart="-1dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="-1dp"
-                android:layout_marginBottom="0dp"
-                android:drawableLeft="@drawable/password_icon"
-                android:ems="10"
-                android:hint="     Confirm Password "
-                android:inputType="textPassword"
-                android:padding="10dp"
-                tools:layout_editor_absoluteX="0dp"
-                tools:layout_editor_absoluteY="316dp" />
+                 <EditText
+                     android:id="@+id/ePassword2"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@+id/ePhone"
+                     android:layout_alignParentStart="true"
+                     android:layout_alignParentEnd="true"
+                     android:layout_marginStart="5dp"
+                     android:layout_marginTop="10dp"
+                     android:layout_marginEnd="0dp"
+                     android:layout_marginBottom="0dp"
+                     android:drawableLeft="@drawable/password_icon"
+                     android:ems="10"
+                     android:hint="     Password "
+                     android:inputType="textPassword"
+                     android:padding="10dp"
+                     android:paddingEnd="10dp"
+                     tools:layout_editor_absoluteX="0dp"
+                     tools:layout_editor_absoluteY="316dp" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="122dp"
-                android:orientation="horizontal">
+                 <EditText
+                     android:id="@+id/eConfirmPassword"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@+id/ePassword"
+                     android:layout_alignParentStart="true"
+                     android:layout_alignParentEnd="true"
+                     android:layout_centerHorizontal="true"
+                     android:layout_marginStart="5dp"
+                     android:layout_marginTop="10dp"
+                     android:layout_marginEnd="-1dp"
+                     android:layout_marginBottom="0dp"
+                     android:drawableLeft="@drawable/password_icon"
+                     android:ems="10"
+                     android:hint="     Confirm Password "
+                     android:inputType="textPassword"
+                     android:padding="10dp"
+                     android:paddingEnd="10dp"
+                     tools:layout_editor_absoluteX="0dp"
+                     tools:layout_editor_absoluteY="316dp" />
 
-                <TextView
-                    android:id="@+id/existingAccount"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerHorizontal="true"
-                    android:layout_gravity="bottom|center|end"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginBottom="33dp"
-                    android:foregroundGravity="center"
-                    android:gravity="center|center_horizontal|center_vertical"
-                    android:onClick="alreadyHaveAccount"
-                    android:text="I already have an account."
-                    android:textSize="15dp"
-                    android:textStyle="bold"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.45"
-                    app:layout_constraintStart_toStartOf="parent"
-                    tools:ignore="OnClick" />
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="122dp"
+                     android:orientation="horizontal"
+                     android:paddingLeft="10dp"
+                     android:paddingRight="10dp">
 
-                <Button
-                    android:id="@+id/signUp"
-                    android:layout_width="172dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="bottom|left"
-                    android:layout_marginLeft="25dp"
-                    android:background="@drawable/button_login"
-                    android:text="Sign Up" />
+                     <TextView
+                         android:id="@+id/existingAccount"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_centerHorizontal="true"
+                         android:layout_gravity="bottom|center|end"
+                         android:layout_marginLeft="20dp"
+                         android:layout_marginBottom="33dp"
+                         android:foregroundGravity="center"
+                         android:gravity="center|center_horizontal|center_vertical"
+                         android:onClick="alreadyHaveAccount"
+                         android:text="I already have an account."
+                         android:textSize="15dp"
+                         android:textStyle="bold"
+                         app:layout_constraintBottom_toBottomOf="parent"
+                         app:layout_constraintEnd_toEndOf="parent"
+                         app:layout_constraintHorizontal_bias="0.45"
+                         app:layout_constraintStart_toStartOf="parent"
+                         tools:ignore="OnClick" />
 
-                </LinearLayout>
+                     <Button
+                         android:id="@+id/padd"
+                         android:layout_width="120dp"
+                         android:layout_height="wrap_content"
+                         android:layout_gravity="bottom|left"
+                         android:layout_marginLeft="25dp"
+                         android:background="@drawable/button_login"
+                         android:paddingEnd="10dp"
+                         android:paddingRight="10dp"
+                         android:text="Sign Up" />
+
+                 </LinearLayout>
 
 
-            </LinearLayout>
+             </LinearLayout>
 
          </ScrollView>
 

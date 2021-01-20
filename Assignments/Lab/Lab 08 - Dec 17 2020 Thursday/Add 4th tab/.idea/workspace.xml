@@ -10,25 +10,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5af17f3f-0665-4633-8bf0-c66d003989e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../../Android Project/Food Whiz/app/src/main/res/drawable/mail_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../Android Project/Food Whiz/app/src/main/res/drawable/password_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../Android Project/Food Whiz/app/src/main/res/drawable/rectangle_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../Android Project/Food Whiz/app/src/main/res/drawable/sign_in_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../Android Project/Food Whiz/app/src/main/res/drawable/sign_up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Android Project/Food Whiz/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Android Project/Food Whiz/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../Android Project/Food Whiz/app/src/main/res/layout/activity_log_in.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Android Project/Food Whiz/app/src/main/res/layout/activity_log_in.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Android Project/Food Whiz/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Android Project/Food Whiz/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Android Project/Food Whiz/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Android Project/Food Whiz/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/jarAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskJars.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Practice/Food Whiz/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Practice/Food Whiz/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/jubaer/addtab/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/jubaer/addtab/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab 12 - Jan 14 2021 Thursday/Alarm maneger/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab 12 - Jan 14 2021 Thursday/Alarm maneger/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab 12 - Jan 14 2021 Thursday/Alarm maneger/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab 12 - Jan 14 2021 Thursday/Alarm maneger/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab 12 - Jan 14 2021 Thursday/Alarm maneger/app/src/main/java/com/adib/alarmmanager/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab 12 - Jan 14 2021 Thursday/Alarm maneger/app/src/main/java/com/adib/alarmmanager/MainActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Test_avd" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="f874c8299804" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -137,10 +146,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1610360634648">
+    <state x="496" y="58" key="#app" timestamp="1611141173508">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1610360634648" />
+    <state x="496" y="58" key="#app/0.0.1536.824@0.0.1536.824" timestamp="1611141173508" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1611147440631">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1611147440631" />
     <state width="1491" height="168" key="GridCell.Tab.0.bottom" timestamp="1610371577395">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -157,5 +170,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1491" height="168" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610371577395" />
+    <state x="93" y="93" width="1350" height="638" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1611147203393">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1536.824@0.0.1536.824" timestamp="1611147203393" />
   </component>
 </project>

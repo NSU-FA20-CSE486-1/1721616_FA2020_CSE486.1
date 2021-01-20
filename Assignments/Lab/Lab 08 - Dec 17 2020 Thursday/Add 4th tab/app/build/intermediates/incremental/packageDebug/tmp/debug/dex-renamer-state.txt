@@ -1,4 +1,4 @@
-#Mon Jan 11 21:09:20 BDT 2021
-base.0=E\:\\Google Drive NSU\\New\\CSE486\\Lab\\Lab08task\\TabExperiment\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Wed Jan 20 18:56:45 BDT 2021
+base.0=E\:\\Google Drive NSU\\New\\CSE486\\1721616_FA2020_CSE486.1\\Assignments\\Lab\\Lab 08 - Dec 17 2020 Thursday\\Add 4th tab\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

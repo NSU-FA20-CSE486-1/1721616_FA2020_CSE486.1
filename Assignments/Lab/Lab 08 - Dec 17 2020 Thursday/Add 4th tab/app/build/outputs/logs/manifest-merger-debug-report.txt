@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml:2:1-21:12
+ADDED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml:2:1-21:12
 MERGED from [com.android.support:design:28.0.0] C:\Users\Adib\.gradle\caches\transforms-2\files-2.1\7cf21ac48e9186dc01afdd96d9fe30a6\design-28.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Adib\.gradle\caches\transforms-2\files-2.1\384c481b110fe6da039624c0bab7e154\appcompat-v7-28.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Adib\.gradle\caches\transforms-2\files-2.1\15ec55f9505e5541a7c9072bc9c3f316\constraint-layout-1.1.3\AndroidManifest.xml:2:1-11:12
@@ -37,25 +37,25 @@ MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Adib\.gradle\cach
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Adib\.gradle\caches\transforms-2\files-2.1\107a7d3b403fc30fca1c4800a659b3b1\livedata-1.1.1\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Adib\.gradle\caches\transforms-2\files-2.1\83a685c91f6c092d5300c972ce427383\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Adib\.gradle\caches\transforms-2\files-2.1\8faddf8fec2fcf4eba11297fbe977fa5\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
-INJECTED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml:2:1-21:12
 	package
-		ADDED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml:3:5-32
-		INJECTED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml
+		ADDED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml:3:5-32
+		INJECTED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml
-		ADDED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml:2:1-21:12
-		INJECTED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml
+		ADDED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml
-		ADDED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml:2:1-21:12
-		INJECTED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml
+		ADDED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml:5:5-19:19
+ADDED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml:5:5-19:19
 MERGED from [com.android.support:design:28.0.0] C:\Users\Adib\.gradle\caches\transforms-2\files-2.1\7cf21ac48e9186dc01afdd96d9fe30a6\design-28.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] C:\Users\Adib\.gradle\caches\transforms-2\files-2.1\7cf21ac48e9186dc01afdd96d9fe30a6\design-28.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Adib\.gradle\caches\transforms-2\files-2.1\15ec55f9505e5541a7c9072bc9c3f316\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
@@ -67,35 +67,35 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Adib\.grad
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Adib\.gradle\caches\transforms-2\files-2.1\0b9593fbb2dcde7397582f8d667e1ce4\support-compat-28.0.0\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml:11:9-40
 activity#com.jubaer.addtab.MainActivity
-ADDED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml:12:9-18:20
+ADDED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml:12:19-64
+		ADDED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml:12:19-64
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
-ADDED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml:16:27-74
 uses-sdk
-INJECTED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml
-INJECTED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml
+INJECTED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml
+INJECTED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml
 MERGED from [com.android.support:design:28.0.0] C:\Users\Adib\.gradle\caches\transforms-2\files-2.1\7cf21ac48e9186dc01afdd96d9fe30a6\design-28.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:28.0.0] C:\Users\Adib\.gradle\caches\transforms-2\files-2.1\7cf21ac48e9186dc01afdd96d9fe30a6\design-28.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Adib\.gradle\caches\transforms-2\files-2.1\384c481b110fe6da039624c0bab7e154\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
@@ -162,13 +162,13 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Adib\.gradle\c
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Adib\.gradle\caches\transforms-2\files-2.1\83a685c91f6c092d5300c972ce427383\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Adib\.gradle\caches\transforms-2\files-2.1\8faddf8fec2fcf4eba11297fbe977fa5\runtime-1.1.1\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Adib\.gradle\caches\transforms-2\files-2.1\8faddf8fec2fcf4eba11297fbe977fa5\runtime-1.1.1\AndroidManifest.xml:20:5-44
-INJECTED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml
-INJECTED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml
+INJECTED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml
+INJECTED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml
-		ADDED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml
+		ADDED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml
-		ADDED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Google Drive NSU\New\CSE486\Lab\Lab08task\TabExperiment\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml
+		ADDED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Google Drive NSU\New\CSE486\1721616_FA2020_CSE486.1\Assignments\Lab\Lab 08 - Dec 17 2020 Thursday\Add 4th tab\app\src\main\AndroidManifest.xml

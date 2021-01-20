@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         nextAlarm = (AlarmManager) getSystemService(ALARM_SERVICE);
+
+
     }
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "applicationId": "com.jubaer.tabexperiment",
+  "applicationId": "com.jubaer.addtab",
   "variantType": "BASE_APK",
   "elements": [
     {
@@ -19,7 +19,7 @@
       },
       "path": "resources-debug.ap_",
       "properties": {
-        "packageId": "com.jubaer.tabexperiment",
+        "packageId": "com.jubaer.addtab",
         "split": "",
         "minSdkVersion": "19"
       }
