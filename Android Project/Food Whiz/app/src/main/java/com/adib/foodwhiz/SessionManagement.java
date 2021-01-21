@@ -2,7 +2,7 @@ package com.adib.foodwhiz;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-
+/**
 //activity that deals with session management- both customer and restaurant
 public class SessionManagement {
     SharedPreferences sharedPreferences;
@@ -50,3 +50,4 @@ public class SessionManagement {
     }
 }
 
+*/

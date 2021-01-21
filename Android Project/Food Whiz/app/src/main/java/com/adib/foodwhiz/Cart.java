@@ -57,7 +57,7 @@ public class Cart extends AppCompatActivity {
         selectedListItems = new ArrayList<>();
 
         //Function to retrieve currently placed items in cart and populating the cart view with the items on top of the parent layout
-        retrieveSelectedItems();
+  //      retrieveSelectedItems();
 
 
         //button to go back to restaurant menu
@@ -74,7 +74,7 @@ public class Cart extends AppCompatActivity {
         placeOrder.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                placeCompleteOrder();
+  //              placeCompleteOrder();
 
 
             }
@@ -85,7 +85,7 @@ public class Cart extends AppCompatActivity {
 
 
     }
-
+/**
     //Function to place order. Takes customer and restaurant ids as parameters, fetches records stored in tempItems table and adds the records to tables where final orders are stored (orders, order_content and placed_order), Updates the quantity in item table and finally deletes the items from tempItems table
     private void placeCompleteOrder() {
         SessionManagement sessionManagement = new SessionManagement(Cart.this);
@@ -185,5 +185,5 @@ public class Cart extends AppCompatActivity {
 
         RequestQueue requestQueue = Volley.newRequestQueue(this);
         requestQueue.add(stringRequest);
-    }
+    }*/
 }
