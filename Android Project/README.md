@@ -21,7 +21,7 @@ Through our app you can trackyour food. This will show you where is your order i
 1.Oderer can oder anyfood near him <br>
 2.Can track his order   <br>
 3.A trusted payment method is also introduced so that he can easily pay for his food. <br>
-
+![](images/Confirmorder.png)
 
 
 ### food delivery
