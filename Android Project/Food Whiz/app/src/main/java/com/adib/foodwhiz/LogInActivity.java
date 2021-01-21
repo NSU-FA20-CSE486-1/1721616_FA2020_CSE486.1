@@ -16,7 +16,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class LogInActivity extends AppCompatActivity {
-    EditText  eEmailAddress,  ePassword;
+    EditText  eEmailAddress,  ePasswordL;
     FirebaseAuth FAuth;
 
     @Override
@@ -25,7 +25,7 @@ public class LogInActivity extends AppCompatActivity {
         setContentView(R.layout.activity_log_in);
 
         eEmailAddress = findViewById(R.id.eEmailAddress);
-        ePassword = findViewById(R.id.ePassword);
+        ePasswordL = findViewById(R.id.ePasswordL);
 
         FAuth = FirebaseAuth.getInstance();
 
@@ -54,24 +54,26 @@ public class LogInActivity extends AppCompatActivity {
         }
 
 
-        final String password =  ePassword.getText().toString().trim();
-        if(TextUtils.isEmpty(password)) {
-            ePassword.setError("Enter password");
+        final String passwordl =  ePasswordL.getText().toString().trim();
+        if(TextUtils.isEmpty(passwordl)) {
+            ePasswordL.setError("Enter password");
             return;
         }
-        if(password.length()<8){
-            ePassword.setError("Password is Weak");
+        if(passwordl.length()<8){
+            ePasswordL.setError("Password is Weak");
+            return;
         }
 
         //user authentication
 
-            FAuth.signInWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+
+            FAuth.signInWithEmailAndPassword(email,passwordl).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                 @Override
                 public void onComplete(@NonNull Task<AuthResult> task) {
                     if(task.isSuccessful()) {
 
                         Toast.makeText(LogInActivity.this, "Logged in successful", Toast.LENGTH_SHORT).show();
-                        startActivity(new Intent(getApplicationContext(), MainMenu.class));
+                        startActivity(new Intent(getApplicationContext(), MainPage.class));
 
 
 

@@ -60,7 +60,7 @@ public class RestaurantMenu extends AppCompatActivity {
         retrieveRestaurant();
 
 
-     
+
 
         //button to view current items in cart
         cart.setOnClickListener(new View.OnClickListener() {
