@@ -108,6 +108,7 @@
                     android:background="@drawable/button_login"
                     android:shadowColor="#03A9F4"
                     android:text="@string/login"
+                    android:onClick="logIn"
                     android:textColor="#FFFFFF"
                     android:textSize="24sp"
                     app:layout_constraintEnd_toEndOf="parent"
