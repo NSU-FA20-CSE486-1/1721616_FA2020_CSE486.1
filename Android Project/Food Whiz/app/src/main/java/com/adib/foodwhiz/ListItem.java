@@ -7,14 +7,14 @@ public class ListItem {
     private String name;
     private String quantity;
     private String price;
-    private String restaurant;
+    private String cook;
 
-    public ListItem(String item_id, String name, String quantity, String price, String restaurant) {
+    public ListItem(String item_id, String name, String quantity, String price, String cook) {
         this.item_id = item_id;
         this.name = name;
         this.quantity = quantity;
         this.price = price;
-        this.restaurant = restaurant;
+        this.cook = cook;
     }
 
     public String getItem_id() {
@@ -49,11 +49,11 @@ public class ListItem {
         this.price = price;
     }
 
-    public String getRestaurant() {
-        return restaurant;
+    public String getcook() {
+        return cook;
     }
 
-    public void setRestaurant(String restaurant) {
-        this.restaurant = restaurant;
+    public void setcook(String cook) {
+        this.cook = cook;
     }
 }
