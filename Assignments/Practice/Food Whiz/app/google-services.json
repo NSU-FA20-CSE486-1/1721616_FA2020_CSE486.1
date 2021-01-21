@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "42503095491",
+    "firebase_url": "https://food-whiz-default-rtdb.firebaseio.com",
+    "project_id": "food-whiz",
+    "storage_bucket": "food-whiz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:42503095491:android:74fb1d3be8260eed624e76",
+        "android_client_info": {
+          "package_name": "com.adib.foodwhiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "42503095491-3cd7h0dvdrj0d53vpu3c6sn7phc6qkdl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAe57bbyiFlSpyM8RKyJR2Q9G5n0VlQpgM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "42503095491-3cd7h0dvdrj0d53vpu3c6sn7phc6qkdl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
